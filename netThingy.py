@@ -19,8 +19,13 @@ target = ""
 port = 0
 
 #help Text
-def man()
+def man():
+    print("netThingy is a network Diagnostic Tool")
+    print("Commands are Rather simple")
+    print("ping a specific ip address or website")
+    print("the Command is ping followed by the ip address")
 
-	print("netThingy is a network Diagnostic Tool")
-	print("Commands are Rather simple")
-	print(" -p is to ping a specific ip address or website")
+
+
+# Scan network
+def scanner():
